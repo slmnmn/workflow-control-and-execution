@@ -85,5 +85,5 @@ jobs:
      steps:
        - name: Output info
          run: |
-           echo "hola"
+           echo "hola esto es una prueba"
            echo "${{ toJSON(github )}}"
